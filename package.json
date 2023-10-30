@@ -1,0 +1,17 @@
+{
+  "name": "vjsplayer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "z0gSh1u <zx.cs@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "electron ./dist/main.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.9",
+    "electron": "^27.0.2",
+    "typescript": "^5.2.2",
+    "video.js": "^8.6.1"
+  }
+}
